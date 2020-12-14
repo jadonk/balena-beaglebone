@@ -14,5 +14,5 @@ wait_docker
 
 # Start barys with all the arguments requested
 echo "[INFO] Running build as builder user..."
-sudo -H -u builder /yocto/resin-board/balena-yocto-scripts/build/barys -m beaglebone-green-wifi
+sudo -H -u builder /yocto/resin-board/balena-yocto-scripts/build/barys -m beaglebone-green-gateway
 
